@@ -10,8 +10,8 @@ from matplotlib import rcParams
 from sklearn.metrics import r2_score
 from sklearn.cross_decomposition import PLSRegression
 
-# Set this to whatever directory you deep your data and import
-os.chdir("/Users/cwb13/Library/CloudStorage/OneDrive-WashingtonStateUniversity(email.wsu.edu)/Projects/Predictive_analytics_master/UV-vis models/UV-vis modeling final/CSV files")
+# Set this to whatever directory you keep your data and import
+os.chdir("/enter/directory/here")
 
 master = pd.read_csv("Combined final.csv")
 master_spec = master.iloc[:,3:]
